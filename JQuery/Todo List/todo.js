@@ -8,6 +8,7 @@ $(document).ready(function(){
    $("#todos").on('click','.deleteItem',deleteItem);
    function deleteItem(event){
       $(this).parent().remove()
+      //The parent() method returns the direct parent element of the selected element.
    }
    $('#todos').on('click','.completeItem',completeItem);
    function completeItem(){
