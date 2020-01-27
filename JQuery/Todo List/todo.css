@@ -1,0 +1,11 @@
+.done{
+    /* list-style-type: none; */
+    text-decoration: line-through;
+    background-color: lightgrey;
+}
+/* .completeItem{
+    list-style-type: none;
+} */
+#todos {
+    list-style-type: none;
+}
