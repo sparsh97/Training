@@ -1,0 +1,28 @@
+var bills=[124,48,268];
+var tips=[];
+var tip;
+bills.forEach(tipCalc);
+function tipCalc(item){
+    if(item<50){
+        tip=item*0.2;
+        tips.push(tip);
+        tip=0;
+    }
+    else if(item>50 && item<200){
+        tip=item*0.15;
+        tips.push(tip);
+        tip=0;
+    }
+    else{
+        tip=item*0.1;
+        tips.push(tip);
+        tip=0;
+    }
+}
+console.log(tips);
+var totalBills=[];
+for(var i=0;i<bills.length;i++){
+    totalBills.push(bills[i]+tips[i]);
+}
+
+totalBills;
