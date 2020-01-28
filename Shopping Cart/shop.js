@@ -7,7 +7,7 @@ var footWear=$('#button5');
 var tv=$('#button6');
 var cart=$('#cart');
 var item;
-var price=0;
+var price;
 var totalPrice=0;
    mobile.click(function(event){
       event.preventDefault();
@@ -15,7 +15,8 @@ var totalPrice=0;
        item=$('#newTodo1').html();
        price=$('#price1').html();
        totalPrice+=Number(price);
-      $("#todos").append('<li class="display-4">'+ item+'&nbsp &nbsp'+price+ '<span class="deleteItem ml-4"><i class="fas fa-trash-alt"></i></span></li>');
+      //  quantity
+      $("#todos").append('<li>'+ item+'&nbsp &nbsp'+price+ '<span class="deleteItem ml-4"><i class="fas fa-trash-alt"></i></span></li>');
       $('#totalPrice').text(totalPrice);
    });
    mTshirt.click(function(event){
@@ -24,7 +25,7 @@ var totalPrice=0;
        item=$('#newTodo2').html();
        price=$('#price2').html();
        totalPrice+=Number(price);
-      $("#todos").append('<li class="display-4">'+ item+'&nbsp &nbsp'+price+ '<span class="deleteItem"><i class="fas fa-trash-alt"></i></span></li>');
+      $("#todos").append('<li>'+ item+'&nbsp &nbsp'+price+ '<span class="deleteItem"><i class="fas fa-trash-alt"></i></span></li>');
       $('#totalPrice').text(totalPrice);
    });
    fTop.click(function(event){
@@ -33,7 +34,7 @@ var totalPrice=0;
        item=$('#newTodo3').html();
        price=$('#price3').html();
        totalPrice+=Number(price);
-      $("#todos").append('<li class="display-4">'+ item+'&nbsp &nbsp'+price+ '<span class="deleteItem"><i class="fas fa-trash-alt"></i></span></li>');
+      $("#todos").append('<li>'+ item+'&nbsp &nbsp'+price+ '<span class="deleteItem"><i class="fas fa-trash-alt"></i></span></li>');
       $('#totalPrice').text(totalPrice);
    });
    ac.click(function(event){
@@ -42,7 +43,7 @@ var totalPrice=0;
        item=$('#newTodo4').html();
        price=$('#price4').html();
        totalPrice+=Number(price);
-      $("#todos").append('<li class="display-4">'+ item+'&nbsp &nbsp'+price+ '<span class="deleteItem"><i class="fas fa-trash-alt"></i></span></li>');
+      $("#todos").append('<li>'+ item+'&nbsp &nbsp'+price+ '<span class="deleteItem"><i class="fas fa-trash-alt"></i></span></li>');
       $('#totalPrice').text(totalPrice);
    });
    footWear.click(function(event){
@@ -51,7 +52,7 @@ var totalPrice=0;
        item=$('#newTodo5').html();
        price=$('#price5').html();
        totalPrice+=Number(price);
-      $("#todos").append('<li class="display-4">'+ item+'&nbsp &nbsp'+price+ '<span class="deleteItem"><i class="fas fa-trash-alt"></i></span></li>');
+      $("#todos").append('<li>'+ item+'&nbsp &nbsp'+price+ '<span class="deleteItem"><i class="fas fa-trash-alt"></i></span></li>');
       $('#totalPrice').text(totalPrice);
    });
    tv.click(function(event){
@@ -60,12 +61,13 @@ var totalPrice=0;
        item=$('#newTodo6').html();
        price=$('#price6').html();
        totalPrice+=Number(price);
-      $("#todos").append('<li class="display-4">'+ item+'&nbsp &nbsp'+price+ '<span class="deleteItem"><i class="fas fa-trash-alt"></i></span></li>');
+      $("#todos").append('<li>'+ item+'&nbsp &nbsp'+price+ '<span class="deleteItem"><i class="fas fa-trash-alt"></i></span></li>');
       $('#totalPrice').text(totalPrice);
    });
    $("#todos").on('click','.deleteItem',deleteItem);
    function deleteItem(event){
       $(this).parent().remove();
-      // totalPrice=toatalPrice-;
+      totalPrice=toatalPrice-Number(price);
+      $('#totalPrice').text(totalPrice);
    }
 });

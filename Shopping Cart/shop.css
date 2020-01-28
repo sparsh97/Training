@@ -1,4 +1,10 @@
 #todos {
    list-style-type: none;
-   font-size: 10px;
+   font-size: 18px;
+}
+/* ul li{
+   font-size
+} */
+body {
+   background-color: lightgrey;
 }
