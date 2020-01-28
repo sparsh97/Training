@@ -9,6 +9,7 @@ var cart=$('#cart');
 var item;
 var price;
 var totalPrice=0;
+var discountPrice=0;
    mobile.click(function(event){
       event.preventDefault();
       cart.removeClass('d-none');
@@ -67,7 +68,12 @@ var totalPrice=0;
    $("#todos").on('click','.deleteItem',deleteItem);
    function deleteItem(event){
       $(this).parent().remove();
-      totalPrice=toatalPrice-Number(price);
+      totalPrice=toatalPrice-Number(this.price);
       $('#totalPrice').text(totalPrice);
    }
+   $("#discount").click(function(){
+      discountPrice=totalPrice*.1;
+      totalPrice=totalPrice-discountPrice;
+      $('#totalPrice').text(totalPrice);
+   });
 });
