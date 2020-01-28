@@ -2,7 +2,7 @@ $(document).ready(function(){
    $("#addItem").on('click',addItem);
    function addItem(event){
       var newItem=$('#newTodo').val();
-      $("#todos").append('<li><input class="completeItem" type="checkbox">'+ newItem+ '<span class="glyphicon glyphicon-trash deleteItem" aria-hidden="true"></span></li>');
+      $("#todos").append('<li><input class="completeItem" type="checkbox">'+ newItem+ '<span class="deleteItem"><i class="fas fa-trash-alt"></i></span></li>');
       $('#newTodo').val(""); // to remove the input area text
    }
    $("#todos").on('click','.deleteItem',deleteItem);
