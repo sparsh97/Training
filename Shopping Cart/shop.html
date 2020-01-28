@@ -12,6 +12,7 @@
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous">
    </script>
+   <script src="shop.js"></script>
    <title>Document</title>
 </head>
 <body>
@@ -35,32 +36,83 @@
          <div class="card">
            <img src="electronics.jpg" class="card-img-top" alt="...">
            <div class="card-body">
-             <h5 class="card-title">Samsung Mobile</h5>
+             <h5 class="card-title" id="newTodo1">Samsung Mobile</h5>
              <p class="card-text">Octa core processor with lightninh fast charging.</p>
            </div>
+           <div class="card-footer">
+            <small class="text-muted" id="price1" >14999</small>
+            <a href="#" class="btn btn-primary" id="button1">Add to cart</a>
+          </div>
          </div>
          <div class="card">
            <img src="menFashion.jpg" class="card-img-top" alt="...">
            <div class="card-body">
-            <h5 class="card-title">Mens Fashion</h5>
-            <p class="card-text">Octa core processor with lightninh fast charging.</p>
+            <h5 class="card-title" id="newTodo2">Mens T-Shirt</h5>
+            <p class="card-text">New lightning deals on mens fashion with more discount</p>
            </div>
            <div class="card-footer">
-             <small class="text-muted">Last updated 3 mins ago</small>
-           </div>
+               <small class="text-muted" id="price2">2499</small>
+               <a href="#" class="btn btn-primary" id="button2">Add to cart</a>
+          </div>
          </div>
          <div class="card">
            <img src="womenFashion.jpg" class="card-img-top" alt="...">
            <div class="card-body">
-            <h5 class="card-title">Samsung Mobile</h5>
-            <p class="card-text">Octa core processor with lightninh fast charging.</p>
+            <h5 class="card-title" id="newTodo3">Womens Top</h5>
+            <p class="card-text">New lightning deals on womens fashion with more discount</p>
            </div>
            <div class="card-footer">
-             <small class="text-muted">Last updated 3 mins ago</small>
-           </div>
-         </div>
+               <small class="text-muted" id="price3">1500</small>
+               <a href="#" class="btn btn-primary" id="button3">Add to cart</a>
+          </div>
+        </div>
        </div>
    </div>
+   <div class="container p-4">
+      <div class="card-group">
+      <div class="card">
+         <img src="ac.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+          <h5 class="card-title" id="newTodo4">AC</h5>
+          <p class="card-text">New lightning deals on ac with more discount</p>
+         </div>
+         <div class="card-footer">
+            <small class="text-muted" id="price4">19999</small>
+            <a href="#" class="btn btn-primary" id="button4">Add to cart</a>
+        </div>
+      </div>
+      <div class="card">
+         <img src="womensFootwear.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+          <h5 class="card-title" id="newTodo5">Womens Footwear</h5>
+          <p class="card-text">New lightning deals on womens fashion with more discount</p>
+         </div>
+         <div class="card-footer">
+            <small class="text-muted" id="price5">2999</small>
+            <a href="#" class="btn btn-primary" id="button5">Add to cart</a>
+        </div>
+      </div>
+      <div class="card">
+         <img src="tv.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+          <h5 class="card-title" id="newTodo6">TV</h5>
+          <p class="card-text">New lightning deals on tv with more discount</p>
+         </div>
+         <div class="card-footer">
+            <small class="text-muted" id="price6">40000</small>
+            <a href="#" class="btn btn-primary" id="button6">Add to cart</a>
+        </div>
+      </div>
+      </div>
+   </div>
+   <div class="container d-none p-4 text-center" id="cart">
+      <h4 class="display-4">Items in your Cart</h4>
+      <ul id="todos"></ul>
+      <div class="container">
+         <h5>Tottal Price:<span id="totalPrice">0</span></h5>
+      </div>
+   </div>
+
    
       
   
@@ -69,7 +121,7 @@
 
 
 
-   <script src="shop.js"></script>
+   
    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
