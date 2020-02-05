@@ -1,0 +1,11 @@
+C:\Users\INT163\Documents\Training\InterfaceExample\bin\Debug\netcoreapp3.1\InterfaceExample.exe
+C:\Users\INT163\Documents\Training\InterfaceExample\bin\Debug\netcoreapp3.1\InterfaceExample.deps.json
+C:\Users\INT163\Documents\Training\InterfaceExample\bin\Debug\netcoreapp3.1\InterfaceExample.runtimeconfig.json
+C:\Users\INT163\Documents\Training\InterfaceExample\bin\Debug\netcoreapp3.1\InterfaceExample.runtimeconfig.dev.json
+C:\Users\INT163\Documents\Training\InterfaceExample\bin\Debug\netcoreapp3.1\InterfaceExample.dll
+C:\Users\INT163\Documents\Training\InterfaceExample\bin\Debug\netcoreapp3.1\InterfaceExample.pdb
+C:\Users\INT163\Documents\Training\InterfaceExample\obj\Debug\netcoreapp3.1\InterfaceExample.csprojAssemblyReference.cache
+C:\Users\INT163\Documents\Training\InterfaceExample\obj\Debug\netcoreapp3.1\InterfaceExample.AssemblyInfoInputs.cache
+C:\Users\INT163\Documents\Training\InterfaceExample\obj\Debug\netcoreapp3.1\InterfaceExample.AssemblyInfo.cs
+C:\Users\INT163\Documents\Training\InterfaceExample\obj\Debug\netcoreapp3.1\InterfaceExample.dll
+C:\Users\INT163\Documents\Training\InterfaceExample\obj\Debug\netcoreapp3.1\InterfaceExample.pdb

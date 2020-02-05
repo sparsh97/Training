@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+//using System.Collections.Generic;
 using ConsoleApp2.Address;
 namespace ConsoleApp2
 {
@@ -8,11 +8,11 @@ namespace ConsoleApp2
         
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the Address: ");
-            string name = Console.ReadLine();
-            char ch = Convert.ToChar(Console.ReadLine());
+            //Console.WriteLine("Enter the Address: ");
+            //string name = Console.ReadLine();
+            //char ch = Convert.ToChar(Console.ReadLine());
             Modification m = new Modification();
-            switch (ch)
+            /*switch (ch)
             {
                 case 'm': m.modify();
                     break;
@@ -27,7 +27,8 @@ namespace ConsoleApp2
                     break;
                 default:Console.WriteLine("switch ended");
                     break;
-            }
+            }*/
+            Console.WriteLine(m);
         }
     }
 }

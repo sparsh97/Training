@@ -1,0 +1,11 @@
+C:\Users\INT163\Documents\Training\ExtensionClass\obj\Debug\netcoreapp3.1\ExtensionClass.csprojAssemblyReference.cache
+C:\Users\INT163\Documents\Training\ExtensionClass\obj\Debug\netcoreapp3.1\ExtensionClass.AssemblyInfoInputs.cache
+C:\Users\INT163\Documents\Training\ExtensionClass\obj\Debug\netcoreapp3.1\ExtensionClass.AssemblyInfo.cs
+C:\Users\INT163\Documents\Training\ExtensionClass\bin\Debug\netcoreapp3.1\ExtensionClass.exe
+C:\Users\INT163\Documents\Training\ExtensionClass\bin\Debug\netcoreapp3.1\ExtensionClass.deps.json
+C:\Users\INT163\Documents\Training\ExtensionClass\bin\Debug\netcoreapp3.1\ExtensionClass.runtimeconfig.json
+C:\Users\INT163\Documents\Training\ExtensionClass\bin\Debug\netcoreapp3.1\ExtensionClass.runtimeconfig.dev.json
+C:\Users\INT163\Documents\Training\ExtensionClass\bin\Debug\netcoreapp3.1\ExtensionClass.dll
+C:\Users\INT163\Documents\Training\ExtensionClass\bin\Debug\netcoreapp3.1\ExtensionClass.pdb
+C:\Users\INT163\Documents\Training\ExtensionClass\obj\Debug\netcoreapp3.1\ExtensionClass.dll
+C:\Users\INT163\Documents\Training\ExtensionClass\obj\Debug\netcoreapp3.1\ExtensionClass.pdb

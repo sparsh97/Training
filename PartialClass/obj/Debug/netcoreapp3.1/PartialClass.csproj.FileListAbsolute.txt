@@ -1,0 +1,11 @@
+C:\Users\INT163\Documents\Training\PartialClass\bin\Debug\netcoreapp3.1\PartialClass.exe
+C:\Users\INT163\Documents\Training\PartialClass\bin\Debug\netcoreapp3.1\PartialClass.deps.json
+C:\Users\INT163\Documents\Training\PartialClass\bin\Debug\netcoreapp3.1\PartialClass.runtimeconfig.json
+C:\Users\INT163\Documents\Training\PartialClass\bin\Debug\netcoreapp3.1\PartialClass.runtimeconfig.dev.json
+C:\Users\INT163\Documents\Training\PartialClass\bin\Debug\netcoreapp3.1\PartialClass.dll
+C:\Users\INT163\Documents\Training\PartialClass\bin\Debug\netcoreapp3.1\PartialClass.pdb
+C:\Users\INT163\Documents\Training\PartialClass\obj\Debug\netcoreapp3.1\PartialClass.csprojAssemblyReference.cache
+C:\Users\INT163\Documents\Training\PartialClass\obj\Debug\netcoreapp3.1\PartialClass.AssemblyInfoInputs.cache
+C:\Users\INT163\Documents\Training\PartialClass\obj\Debug\netcoreapp3.1\PartialClass.AssemblyInfo.cs
+C:\Users\INT163\Documents\Training\PartialClass\obj\Debug\netcoreapp3.1\PartialClass.dll
+C:\Users\INT163\Documents\Training\PartialClass\obj\Debug\netcoreapp3.1\PartialClass.pdb
