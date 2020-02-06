@@ -1,0 +1,13 @@
+C:\Users\INT163\Documents\Training\CRM\obj\Debug\netcoreapp3.1\CRM.csprojAssemblyReference.cache
+C:\Users\INT163\Documents\Training\CRM\obj\Debug\netcoreapp3.1\CRM.AssemblyInfoInputs.cache
+C:\Users\INT163\Documents\Training\CRM\obj\Debug\netcoreapp3.1\CRM.AssemblyInfo.cs
+C:\Users\INT163\Documents\Training\CRM\bin\Debug\netcoreapp3.1\CRM.exe
+C:\Users\INT163\Documents\Training\CRM\bin\Debug\netcoreapp3.1\CRM.deps.json
+C:\Users\INT163\Documents\Training\CRM\bin\Debug\netcoreapp3.1\CRM.runtimeconfig.json
+C:\Users\INT163\Documents\Training\CRM\bin\Debug\netcoreapp3.1\CRM.runtimeconfig.dev.json
+C:\Users\INT163\Documents\Training\CRM\bin\Debug\netcoreapp3.1\CRM.dll
+C:\Users\INT163\Documents\Training\CRM\bin\Debug\netcoreapp3.1\CRM.pdb
+C:\Users\INT163\Documents\Training\CRM\obj\Debug\netcoreapp3.1\CRM.dll
+C:\Users\INT163\Documents\Training\CRM\obj\Debug\netcoreapp3.1\CRM.pdb
+C:\Users\INT163\Documents\Training\CRM\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\INT163\Documents\Training\CRM\obj\Debug\netcoreapp3.1\CRM.csproj.CopyComplete
