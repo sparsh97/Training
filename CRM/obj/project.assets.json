@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\INT163\\.nuget\\packages\\": {}
+    "C:\\Users\\Sparsh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\INT163\\Documents\\Training\\CRM\\CRM.csproj",
+      "projectUniqueName": "C:\\Users\\Sparsh\\Documents\\Training Practice\\CRM\\CRM.csproj",
       "projectName": "CRM",
-      "projectPath": "C:\\Users\\INT163\\Documents\\Training\\CRM\\CRM.csproj",
-      "packagesPath": "C:\\Users\\INT163\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\INT163\\Documents\\Training\\CRM\\obj\\",
+      "projectPath": "C:\\Users\\Sparsh\\Documents\\Training Practice\\CRM\\CRM.csproj",
+      "packagesPath": "C:\\Users\\Sparsh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sparsh\\Documents\\Training Practice\\CRM\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\INT163\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sparsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

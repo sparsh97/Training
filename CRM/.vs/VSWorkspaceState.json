@@ -2,6 +2,10 @@
   "ExpandedNodes": [
     ""
   ],
+<<<<<<< HEAD
   "SelectedNode": "\\CustomerRepository.cs",
+=======
+  "SelectedNode": "\\mainClass.cs",
+>>>>>>> 49ab12eb0dd4694b0e9b475eb5a4c9791ad683f8
   "PreviewInSolutionExplorer": false
 }
