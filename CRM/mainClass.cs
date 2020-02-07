@@ -9,12 +9,17 @@ namespace CRM
         public static void Main(string[] args)
         {
             Order order = new Order(10);
-            OrderItem orditem = new OrderItem();
+            //OrderItem orditem = new OrderItem();
             OrderRepository or = new OrderRepository();
             OrderDisplay od = or.RetrieveOrderDisplay(10);
             OrderDisplayItem odi = new OrderDisplayItem();
             Console.WriteLine(od.FirstName+" "+od.LastName);
             Console.WriteLine(od.OrderDate);
+            AddressRepository ar = new AddressRepository();
+            Address a = new Address();
+            ar.RetrieveByCustomerId(1);
+            Console.WriteLine(ar.RetrieveByCustomerId(10));
+            //a = ar.RetrieveByCustomerId(10);
             //or.RetrieveOrderDisplay(10);
 
             /*var a=or.RetrieveOrderDisplay(10).OrderDisplayItemList;
