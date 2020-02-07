@@ -8,28 +8,31 @@ namespace CRM
     {
         public static void Main(string[] args)
         {
-            Order order = new Order();
+            Order order = new Order(10);
             OrderItem orditem = new OrderItem();
             OrderRepository or = new OrderRepository();
-            OrderDisplay od = new OrderDisplay();
+            OrderDisplay od = or.RetrieveOrderDisplay(10);
             OrderDisplayItem odi = new OrderDisplayItem();
-<<<<<<< HEAD
-            Console.WriteLine(or.Retrieve(10)); //or.Retrieve(10);
-            List<Order> lOrder = new List<Order>();
-            lOrder.Add(or.RetrieveOrderDisplay(10));
-            foreach (OrderRepository orr in lOrder)
-=======
-            Console.WriteLine(or.Retrieve(10) ); //or.Retrieve(10);
-            List<Order> lOrder = new List<Order>();
-            lOrder.Add(or.RetrieveOrderDisplay(10));
-            foreach(OrderRepository orr in lOrder)
->>>>>>> 49ab12eb0dd4694b0e9b475eb5a4c9791ad683f8
+            Console.WriteLine(od.FirstName+" "+od.LastName);
+            Console.WriteLine(od.OrderDate);
+            //or.RetrieveOrderDisplay(10);
+
+            /*var a=or.RetrieveOrderDisplay(10).OrderDisplayItemList;
+           // odi.
+            Console.WriteLine(a); //or.Retrieve(10);
+            List<OrderDisplay> lOrder = new List<OrderDisplay>();
+            lOrder.Add(or.RetrieveOrderDisplay(10).OrderDisplayItemList.Or);
+            //foreach (OrderRepository orr in lOrder)
+            //Console.WriteLine(or.Retrieve(10) ); //or.Retrieve(10);
+            //List<Order> lOrder = new List<Order>();
+            //lOrder.Add(or.RetrieveOrderDisplay(10));
+            foreach(Order orr in lOrder)
             {
                 Console.WriteLine(orr.OrderId);
                 Console.WriteLine(orr.OrderDate);
                 Console.WriteLine(orr.orderItems);
             }
-            Console.WriteLine(or.RetrieveOrderDisplay(10));
+            //Console.WriteLine(or.RetrieveOrderDisplay(10));*/
         }
     }
 }
