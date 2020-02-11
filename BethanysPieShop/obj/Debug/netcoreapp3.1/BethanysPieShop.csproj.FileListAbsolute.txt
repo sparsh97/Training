@@ -19,8 +19,6 @@ C:\Users\INT163\Documents\Training\BethanysPieShop\obj\Debug\netcoreapp3.1\Betha
 C:\Users\INT163\Documents\Training\BethanysPieShop\obj\Debug\netcoreapp3.1\BethanysPieShop.TagHelpers.input.cache
 C:\Users\INT163\Documents\Training\BethanysPieShop\obj\Debug\netcoreapp3.1\BethanysPieShop.TagHelpers.output.cache
 C:\Users\INT163\Documents\Training\BethanysPieShop\obj\Debug\netcoreapp3.1\BethanysPieShop.RazorCoreGenerate.cache
-C:\Users\INT163\Documents\Training\BethanysPieShop\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\INT163\Documents\Training\BethanysPieShop\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\INT163\Documents\Training\BethanysPieShop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\INT163\Documents\Training\BethanysPieShop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\INT163\Documents\Training\BethanysPieShop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -116,3 +114,4 @@ C:\Users\INT163\Documents\Training\BethanysPieShop\bin\Debug\netcoreapp3.1\Micro
 C:\Users\INT163\Documents\Training\BethanysPieShop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 C:\Users\INT163\Documents\Training\BethanysPieShop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Users\INT163\Documents\Training\BethanysPieShop\obj\Debug\netcoreapp3.1\BethanysPieShop.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\INT163\Documents\Training\BethanysPieShop\obj\Debug\netcoreapp3.1\Razor\Views\Pie\List.cshtml.g.cs

@@ -7,7 +7,7 @@ namespace BethanysPieShop.Models
 {
     public class MockCategoryRepository: ICategoryRepository
     {
-        public IEnumerable<Category> AllCategories =>
+        public IEnumerable<Category> Categories =>
             new List<Category>
             {
                 new Category{CategoryId=1, CategoryName="Fruit pies", Description="All-fruity pies"},
@@ -16,6 +16,6 @@ namespace BethanysPieShop.Models
 
             };
 
-        public IEnumerable<Category> Categories { get; }
+        //public IEnumerable<Category> Categories { get; }
     }
 }
