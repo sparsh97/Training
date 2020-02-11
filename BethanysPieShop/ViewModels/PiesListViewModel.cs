@@ -10,5 +10,6 @@ namespace BethanysPieShop.Models.ViewModels
     {
         public IEnumerable<Pie> Pies { get; set; }
         public string CurrentCategory { get; set; }
+        
     }
 }
