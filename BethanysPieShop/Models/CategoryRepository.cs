@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Hosting;
 
 namespace BethanysPieShop.Models
 {
@@ -14,9 +15,7 @@ namespace BethanysPieShop.Models
             _appDbContext = appDbContext;
         }
 
-        public IEnumerable<Category> Categories
-        {
-            get { return _appDbContext.Categories; }
-        }
+        public IEnumerable<Category> Categories => _appDbContext.Categories;
+        
     }
 }
