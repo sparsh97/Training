@@ -27,11 +27,16 @@ namespace BethanysPieShop.Controllers
             return View(piesListViewModel);
         }
 
-        public IActionResult longDescription(string PieId)
+        /*public IActionResult longDescription(string PieId)
         {
             PiesListViewModel piesListViewModel = new PiesListViewModel();
             piesListViewModel.Pies = _pieRepository.GetPieById(PieId);
             return View(piesListViewModel);
+        }*/
+        public IActionResult Description(int pieId=1)
+        {
+           
+            return View(_pieRepository.GetPieById(pieId));
         }
     }
 }

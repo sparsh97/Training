@@ -9,7 +9,6 @@ C:\Users\INT163\Documents\Training\BethanysPieShop\bin\Debug\netcoreapp3.1\Betha
 C:\Users\INT163\Documents\Training\BethanysPieShop\bin\Debug\netcoreapp3.1\BethanysPieShop.pdb
 C:\Users\INT163\Documents\Training\BethanysPieShop\bin\Debug\netcoreapp3.1\BethanysPieShop.Views.dll
 C:\Users\INT163\Documents\Training\BethanysPieShop\bin\Debug\netcoreapp3.1\BethanysPieShop.Views.pdb
-C:\Users\INT163\Documents\Training\BethanysPieShop\obj\Debug\netcoreapp3.1\BethanysPieShop.csprojAssemblyReference.cache
 C:\Users\INT163\Documents\Training\BethanysPieShop\obj\Debug\netcoreapp3.1\staticwebassets\BethanysPieShop.StaticWebAssets.Manifest.cache
 C:\Users\INT163\Documents\Training\BethanysPieShop\obj\Debug\netcoreapp3.1\staticwebassets\BethanysPieShop.StaticWebAssets.xml
 C:\Users\INT163\Documents\Training\BethanysPieShop\obj\Debug\netcoreapp3.1\BethanysPieShop.RazorAssemblyInfo.cache
@@ -137,3 +136,5 @@ C:\Users\INT163\Documents\Training\BethanysPieShop\bin\Debug\netcoreapp3.1\runti
 C:\Users\INT163\Documents\Training\BethanysPieShop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\INT163\Documents\Training\BethanysPieShop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\INT163\Documents\Training\BethanysPieShop\obj\Debug\netcoreapp3.1\BethanysPieShop.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\INT163\Documents\Training\BethanysPieShop\obj\Debug\netcoreapp3.1\Razor\Views\Pie\Description.cshtml.g.cs
+C:\Users\INT163\Documents\Training\BethanysPieShop\obj\Debug\netcoreapp3.1\BethanysPieShop.csprojAssemblyReference.cache
