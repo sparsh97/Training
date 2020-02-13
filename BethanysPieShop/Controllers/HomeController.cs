@@ -31,7 +31,7 @@ namespace BethanysPieShop.Controllers
         {
             var homeViewModel = new HomeViewModel();
             string d = "hello";
-            return View(d);
+            return View();
         }
     }
 }
