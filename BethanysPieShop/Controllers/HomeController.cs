@@ -14,7 +14,7 @@ namespace BethanysPieShop.Controllers
 
         public HomeController(IPieRepository pieRepository)
         {
-            _pieRepository = pieRepository;
+            _pieRepository = pieRepository;  //Constructor Injection
         }
 
         public IActionResult Index()
